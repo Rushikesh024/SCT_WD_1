@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">BrandName</a>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to Our Website</h1>
+                    <p>This is the hero section with a compelling headline and call-to-action. Experience our interactive navigation menu that changes as you scroll.</p>
+                    <button class="btn btn--primary btn--lg">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-content">
+                    <h2>About Us</h2>
+                    <p>Learn more about our company, mission, and values. We are dedicated to providing excellent service and creating amazing user experiences.</p>
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <h3>Our Mission</h3>
+                            <p>To deliver innovative solutions that exceed expectations and drive success for our clients.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Our Vision</h3>
+                            <p>To be the leading provider of cutting-edge web technologies and user-centered design.</p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>Our Values</h3>
+                            <p>Quality, innovation, and customer satisfaction are at the heart of everything we do.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <div class="section-content">
+                    <h2>Our Services</h2>
+                    <p>Discover the range of services we offer to help your business grow and succeed in the digital landscape.</p>
+                    <div class="services-grid">
+                        <div class="service-card card">
+                            <div class="card__body">
+                                <h3>Web Development</h3>
+                                <p>Custom websites and web applications built with modern technologies and best practices.</p>
+                            </div>
+                        </div>
+                        <div class="service-card card">
+                            <div class="card__body">
+                                <h3>UI/UX Design</h3>
+                                <p>User-centered design that creates intuitive and engaging digital experiences.</p>
+                            </div>
+                        </div>
+                        <div class="service-card card">
+                            <div class="card__body">
+                                <h3>Mobile Apps</h3>
+                                <p>Native and cross-platform mobile applications for iOS and Android devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <div class="section-content">
+                    <h2>Portfolio</h2>
+                    <p>Check out our latest work and projects that showcase our expertise and creativity in web development.</p>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item card">
+                            <div class="card__body">
+                                <h3>E-commerce Platform</h3>
+                                <p>A comprehensive online shopping platform with advanced features and seamless user experience.</p>
+                                <span class="status status--success">Completed</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-item card">
+                            <div class="card__body">
+                                <h3>Corporate Website</h3>
+                                <p>Professional website design for a leading financial services company.</p>
+                                <span class="status status--success">Completed</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-item card">
+                            <div class="card__body">
+                                <h3>Mobile Banking App</h3>
+                                <p>Secure and user-friendly mobile banking application with biometric authentication.</p>
+                                <span class="status status--warning">In Progress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-content">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to start your project? Contact us today and let's discuss how we can help you achieve your goals.</p>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <h4>Email</h4>
+                                <p>hello@example.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                            <div class="contact-item">
+                                <h4>Address</h4>
+                                <p>123 Business Street<br>City, State 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                            <form>
+                                <div class="form-group">
+                                    <label class="form-label" for="name">Name</label>
+                                    <input type="text" id="name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="message">Message</label>
+                                    <textarea id="message" class="form-control" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
